@@ -13,3 +13,19 @@ class DashViews(TemplateView):
     #     context['funcionarios'] = Funcionario.objects.all()
     #     context['recursos'] = Recurso.objects.all()
     #     return context
+
+
+class ProfileViews(TemplateView):
+    template_name = 'profile.html'
+
+class HelpCenterViews(TemplateView):
+    template_name = 'help-center.html'
+
+class SettingViews(TemplateView):
+    template_name = 'setting.html'
+
+class TransationDetailViews(TemplateView):
+    template_name = 'transation-detail.html'
+
+class WalletViews(TemplateView):
+    template_name = 'wallet.html'
